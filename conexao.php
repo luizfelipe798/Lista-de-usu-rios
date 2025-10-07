@@ -7,5 +7,9 @@
 
     $conexao = new mysqli_connect($servidor, $nomebanco, $porta, $senha, $usuario);
 
-    if($conexao->erros)
+    if($conexao->connect_error)
+    {
+        echo "Erro de conexão: " . $conexao->connect_error;
+        exit;
+    }
 ?>
