@@ -4,21 +4,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/body_index.css">
+    <link rel="stylesheet" href="css/rodape.css">
 
     <title>Lista de usuários</title>
 </head>
 <body>
     <?php 
-        include 'menu.php'; 
+        include 'paginas/menu.php'; 
     ?>
 
     <div class="conteudoprincipal-container">
-        <div class="titulo-container">
-            <h1>Lista de usuários</h1>
-        </div>
-        <div class="btn_adicionar-container">
-            <a href="">Adicionar</a>
+        <div class="titulo_e_botao-container">
+            <div class="titulo-container">
+                <h1>Lista de usuários</h1>
+            </div>
+            <div class="btn_adicionar-container">
+                <a href="paginas/cadastrar.php">Adicionar</a>
+            </div>
         </div>
 
         <table>
@@ -42,5 +45,9 @@
             </tbody>
         </table>
     </div>
+
+    <?php
+        include "paginas/rodape.php";
+    ?>
 </body> 
 </html> 

@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudoprincipal-container
+{
+    width: 55%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(233, 229, 229);
+}
+
+.titulo_e_botao-container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.titulo-container
+{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.titulo-container h1
+{
+    font-size: 30px;
+    color: #db6d13;
+    font-weight: bold;
+}
+
+.btn_adicionar-container
+{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_adicionar-container a
+{
+    width: 100%;
+    height: 20px;
+    text-decoration: none;
+    border: 2px solid #db6d13;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 17px;
+    color: #db6d13;
+    transition: 0.2s;
+}
+
+.btn_adicionar-container a:hover
+{
+    background-color: #db6d13;
+    color: rgb(233, 229, 229);
+}
+
+table
+{
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+thead
+{
+    color: #db6d13;
+    font-size: 18px;
+}
+
+tbody
+{
+    font-size: 15px;
+}

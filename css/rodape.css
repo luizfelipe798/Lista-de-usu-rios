@@ -5,20 +5,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.menuprincipal-container
+.rodape-container
 {
     width: 100%;
-    background-color: rgb(150, 149, 149);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgb(150, 149, 149);
 }
 
-.menuprincipal-container h1
+.rodape-container p
 {
-    font-size: 45px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: 400;
     color: #db6d13;
 }
