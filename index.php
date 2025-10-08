@@ -31,7 +31,7 @@
                     <th>Email</th>
                     <th>Data de nascimento</th>
                     <th>Sexo</th>
-                    <th>Ações</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -40,7 +40,10 @@
                     <td>luiz@gmail.com</td>
                     <td>29/03/2008</td>
                     <td>Masculino</td>
-                    <td></td>
+                    <td>
+                        <a href="" class="btn-acao edicao">Editar</a>
+                        <a href="" class="btn-acao exclusao">Excluir</a>
+                    </td>
                 </tr>
             </tbody>
         </table>
