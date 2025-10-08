@@ -5,7 +5,7 @@
     $senha = "815674815";
     $usuario = "root";
 
-    $conexao = new mysqli_connect($servidor, $nomebanco, $porta, $senha, $usuario);
+    $conexao = new mysqli($servidor, $nomebanco, $porta, $senha, $usuario);
 
     if($conexao->connect_error)
     {
