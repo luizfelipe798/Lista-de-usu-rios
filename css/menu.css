@@ -1,0 +1,23 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuprincipal-container
+{
+    width: 100%;
+    background-color: rgb(150, 149, 149);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.menuprincipal-container h1
+{
+    font-size: 45px;
+    font-weight: bold;
+    color: #db6d13;
+}
